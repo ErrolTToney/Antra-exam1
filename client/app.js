@@ -8,9 +8,9 @@ function getAlbumList(e) {
     .then((data) => {
       document.querySelector(".albumBox").innerHTML = `
       <div class="albumName">${data.results["0"].artistName}</div>
-        <img src="${data.results["0"].artworkUrl100}" alt= "${data.artistName}"/>
+        <img id="albumImage"src="${data.results["0"].artworkUrl60}" alt= "${data.artistName}"/>
         <ul>
-        <li class="songs">${data.results["0"].collectionName}</li>
+        <li class="songs">${data.results["0"].collectionName}🎵</li>
         </ul>
         `;
     })

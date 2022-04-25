@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    border:0;
+    box-sizing: border-box;
+}
+.searchBox{
+    display:flex;
+    justify-content: center;
+    border: 8px solid black;
+}
+.albumBox{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ #albumImage{
+    width: 100%;
+    height: auto;
+    box-shadow: 3px 3px rgb(57, 57, 57), -1em 0 .4em rgb(14, 0, 0);
+    image-rendering: -webkit-optimize-contrast;
+}
+.albumName{
+    font-size: 50px;
+
+}
+.songs{
+    font-size:50px
+}
